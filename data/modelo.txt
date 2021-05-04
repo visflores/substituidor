@@ -1,0 +1,2 @@
+Olá <nome>! estamos enviado um email para o <email> que você preencheu no formulário.
+Agradecemos o seu interesse no projeto!
