@@ -1,16 +1,16 @@
-Olá Vinicius! estamos enviado um email para o vinicius.nuvem@gmail.com que você preencheu no formulário.
+Olá Teste 1! estamos enviado um email para o teste@teste.com que você preencheu no formulário.
 Agradecemos o seu interesse no projeto!
 
 
-Olá Amanda! estamos enviado um email para o amanda.cerqueira@isemear.com.br que você preencheu no formulário.
+Olá Teste 2! estamos enviado um email para o teste@teste.com que você preencheu no formulário.
 Agradecemos o seu interesse no projeto!
 
 
-Olá Matheus! estamos enviado um email para o matheus.sousagm@gmail.com que você preencheu no formulário.
+Olá Teste 3! estamos enviado um email para o teste@teste.com que você preencheu no formulário.
 Agradecemos o seu interesse no projeto!
 
 
-Olá Juliana! estamos enviado um email para o e.mail.floresjuliana@gmail.com que você preencheu no formulário.
+Olá Teste 4! estamos enviado um email para o teste@teste.com que você preencheu no formulário.
 Agradecemos o seu interesse no projeto!
 
 
