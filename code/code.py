@@ -35,16 +35,29 @@ def substitute_tags(repeat_model, index_data):
 
         filled_model.append(to_change)
 
-    save_models(filled_model)
+    return filled_model
 
-def save_models(filled_model):
+def save_as_txt(filled_model):
     '''
         Save a list into a file
     '''
     with open('model_filled.txt', 'w') as save_model:
         save_model.writelines(filled + '\n\n' for filled in filled_model)
 
+
+def save_as_xlsx(filled_model, data_path):
+    '''
+        Save a csv with our filled models
+    '''
+    df = pd.read_csv(data_path, sep=',')
+
+    df['modelos'] = filled_model
+
+    df.to_excel('filled_models.xlsx', index=False, engine='openpyxl')
+
 if __name__ == '__main__':
     repeat_model, index_data = process_files('../data/modelo.txt', '../data/informacoes.csv')
 
-    substitute_tags(repeat_model, index_data)
+    subs = substitute_tags(repeat_model, index_data)
+
+    save_as_xlsx(subs, '../data/informacoes.csv')
